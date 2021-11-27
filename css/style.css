@@ -1,0 +1,405 @@
+body {
+  margin: 0px;
+}
+
+h1, h2, h3, h4, h5, h6, p, a, li, span {
+  font-family: "Source Sans Pro", sans-serif;
+}
+
+.blue-color {
+  color: #00609C;
+}
+
+.purple-color {
+  color: #C017A2;
+}
+
+.gray-bg {
+  background-color: #EEEEEE;
+}
+
+.blue-bg {
+  background-color: #00609C;
+  color: white;
+}
+
+.purple-bg {
+  background-color: #C017A2;
+}
+
+.dark-gray-bg {
+  background-color: #E6E7E8;
+}
+
+/* Padding Sizes */
+.p-0 {
+  padding: 0px;
+}
+
+.p-1 {
+  padding: 1rem;
+}
+
+.p-2 {
+  padding: 2rem;
+}
+
+.p-3 {
+  padding: 3rem;
+}
+
+.p-4 {
+  padding: 4rem;
+}
+
+.p-5 {
+  padding: 5rem;
+}
+
+.px-0 {
+  padding-right: 0px;
+  padding-left: 0px;
+}
+
+.py-0 {
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+
+.py-3 {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+.py-2 {
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+}
+
+.py-1 {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.px-3 {
+  padding-right: 2rem;
+  padding-left: 2rem;
+}
+
+.px-2 {
+  padding-right: 1.5rem;
+  padding-left: 1.5rem;
+}
+
+.px-1 {
+  padding-right: 1rem;
+  padding-left: 1rem;
+}
+
+/* End Padding Sizes */
+/* Margin Sizes */
+.remove-margin {
+  margin-top: -1rem;
+  margin-bottom: -1rem;
+}
+
+.m-0 {
+  margin: 0px;
+}
+
+.m-1 {
+  margin: 1rem;
+}
+
+.m-2 {
+  margin: 2rem;
+}
+
+.m-3 {
+  margin: 3rem;
+}
+
+.ml-1 {
+  margin-left: 1rem;
+}
+
+.ml-2 {
+  margin-left: 2rem;
+}
+
+.mt-2 {
+  margin-top: 2rem;
+}
+
+/* End Margin Sizes */
+/* container && rows Style */
+.container-div {
+  width: 80%;
+  margin: auto;
+}
+
+.row-div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.col-div-8 {
+  width: 66.666667%;
+}
+
+.col-div-6 {
+  width: 50%;
+}
+
+.col-div-4 {
+  width: 33.333333%;
+}
+
+/* End container && rows Style */
+/*       Search Section             */
+.search-input {
+  border: 1px solid #00000024;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  height: 51px;
+  width: 354px;
+  padding: 0px 2rem;
+  border-radius: 25.5px;
+}
+
+input.search-input {
+  background-image: url("../assets/images/Group-1.png");
+  background-repeat: no-repeat;
+  background-position: right;
+}
+
+/*      End Search Section             */
+.menu-items {
+  list-style: none;
+  padding-right: 1rem;
+}
+
+.menu-items a {
+  text-decoration: none;
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+
+.menu-items a:hover {
+  color: #C017A2 !important;
+}
+
+#first-menu a {
+  color: black;
+}
+
+#second-menu a {
+  color: #00609C;
+}
+
+#third-menu a {
+  color: white;
+}
+
+/* Women Section */
+#women-section {
+  background-image: url("../assets/images/Untitled-6.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#women-section p {
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 36.4px;
+  color: white;
+  width: 50%;
+}
+
+/* End Women Section */
+/* White Box */
+.parag-section {
+  font-size: 28px;
+  line-height: 130%;
+}
+
+/*  End White Box  */
+/*  Card Section */
+.cards-section {
+  text-align: center;
+}
+
+.cards-section .card-title {
+  font-size: 20px;
+}
+
+.cards-section .card-text {
+  width: 70%;
+  margin: auto;
+  padding: 1rem 0rem;
+}
+
+.cards-section img {
+  display: block;
+  margin: auto;
+}
+
+/* End Card Section  */
+/* colorfull-section */
+#colorfull-section .row-div {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.colorfull-title {
+  font-size: 28px;
+  margin: 0px;
+}
+
+.btn-video {
+  color: #fff;
+  padding: 1rem;
+  border-radius: 50px;
+  border: 2px solid;
+  font-weight: bold;
+}
+
+/* End colorfull-section */
+/* Blogs */
+#blogs .col-div-6 {
+  margin: 0px 1rem;
+}
+
+/* End Blogs */
+/* References */
+.blue-icon-style {
+  width: 50px;
+  height: 50px;
+  margin-top: 0.7rem;
+  margin-right: 1rem;
+}
+
+/* End References */
+/* Footer */
+.footer-copy-right {
+  width: 37%;
+  margin-left: auto;
+  line-height: 2;
+  font-size: 13px;
+  font-weight: 100;
+}
+
+#footer-menu a {
+  color: #ffffff80;
+  font-weight: 100;
+}
+
+#footer-menu .menu-items {
+  border-right: 1px solid #ffffff33;
+  padding-left: 1rem;
+}
+
+/* End Footer */
+/* Responsive */
+@media only screen and (min-width: 769px) {
+  #mobile-menu {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .col-div-6 {
+    width: 100%;
+  }
+  .row-div {
+    display: block;
+  }
+  .p-4 {
+    padding: 0px;
+  }
+  .col-div-4 {
+    width: 100%;
+    display: block;
+  }
+  #menu {
+    display: none;
+  }
+  #women-section {
+    background-image: url(../assets/images/mobile-bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 0rem 0rem;
+  }
+  #women-section p {
+    padding: 1rem 0rem;
+    width: 100%;
+  }
+  #women-section img {
+    padding: 1rem 0rem;
+  }
+  #women-section .space {
+    height: 224px;
+  }
+  .img-section {
+    margin: 2rem;
+  }
+  #colorfull-section .p-4 {
+    padding: 1rem;
+  }
+  #blogs .col-div-6 {
+    margin: 1rem 1rem;
+  }
+  #footer {
+    padding: 1rem;
+  }
+  .mobile-menu-list {
+    background-color: white;
+  }
+  .mobile-menu-list #first-menu-mobile a, .mobile-menu-list #third-menu-mobile a {
+    color: #00609C;
+  }
+  .mobile-menu-list #first-menu-mobile a:hover, .mobile-menu-list #third-menu-mobile a:hover {
+    color: #C017A2 !important;
+  }
+  .mobile-menu-list #second-menu-mobile a {
+    color: white !important;
+  }
+  .mobile-menu-list #second-menu-mobile a:hover {
+    color: #C017A2 !important;
+  }
+  .mobile-menu-list a {
+    line-height: 1.5;
+    -webkit-transition: 1s;
+    transition: 1s;
+    font-size: 18px;
+  }
+  .mobile-menu-list #first-menu-mobile {
+    padding: 0px;
+  }
+  .mobile-menu-list .row-div {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .mobile-menu-list .col-div-4 {
+    width: 33.33%;
+  }
+  .mobile-menu-list #second-menu-mobile a:hover {
+    color: #C017A2;
+  }
+  #menu-icon {
+    cursor: pointer;
+  }
+  #menu-div-list {
+    height: 0px;
+    overflow: hidden;
+    -webkit-transition: all 2s ease-in-out;
+    transition: all 2s ease-in-out;
+  }
+  #menu-div-list.slideUp {
+    height: 350px;
+  }
+}
+/*# sourceMappingURL=style.css.map */

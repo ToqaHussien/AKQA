@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="icon" type="image/x-icon" href="/assets/images/favicon.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Source+Sans+Pro:wght@200;400;600&display=swap"
+        rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <meta name="viewport" content="width=device-width, initial-scale=0.5">
+    <title>Derma Demo</title>
+</head>
+
+
+
+<body>
+
+    <div id="home">
+
+        <!-- Logo && Search Section -->
+        <div class="container-div row-div py-3">
+            <div class="col-div-6">
+                <img src="assets/images/DermaWorld.png" alt="Logo">
+            </div>
+            <div class="col-div-6">
+                <input type="text" class="search-input" placeholder="Search">
+            </div>
+
+        </div>
+
+        <!-- End Logo && Search Section -->
+
+        <!-- Menu Section -->
+        <div id="menu">
+            <div class="container-div">
+                <div>
+                    <ul id="first-menu" class="row-div px-0"></ul>
+                </div>
+            </div>
+            <div class="gray-bg">
+                <div class="container-div">
+                    <ul id="second-menu" class="row-div px-0 py-1"></ul>
+                </div>
+
+            </div>
+            <div class="blue-bg remove-margin">
+                <div class="container-div">
+                    <ul id="third-menu" class="row-div px-0 py-1"></ul>
+                </div>
+
+            </div>
+        </div>
+
+
+        <!-- End Menu Section -->
+
+        <!-- Mobile Menu -->
+        <div id="mobile-menu" class="container-div">
+
+            <img id="menu-icon" onclick="toggle()" src="assets/images/menu.png" alt="mobile menu">
+            <div id="menu-div-list" class="mobile-menu-list">
+                <div class="row-div">
+                    <div class="col-div-4 gray-bg p-1">
+                        <ul id="first-menu-mobile"></ul>
+                    </div>
+                    <div class="col-div-4 blue-bg">
+                        <ul id="second-menu-mobile"></ul>
+                    </div>
+                    <div class="col-div-4 dark-gray-bg">
+                        <ul id="third-menu-mobile"></ul>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+
+        <!-- End Mobile Menu -->
+        <!-- First Section -->
+        <div id="women-section" class="py-3">
+            <div class="container-div">
+                <img src="./assets/images/Adtralza global 100820.png" alt="Logo">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto velit,
+                    eligendi ex ullam necessitatibus, enim nobis aut unde perspiciatis nam,
+                    culpa voluptate! Cupiditate, voluptatum recusandae! Sequi distinctio officia deleniti! Deleniti.</p>
+                <div class="space"></div>
+            </div>
+        </div>
+
+
+        <!-- End First Section -->
+
+        <!-- Second Section -->
+        <div class="gray-bg py-3">
+            <div class="container-div row-div">
+                <div class="col-div-6"> <img src="./assets/images/adtralza-packshot-gebaut-01 2.png" alt="adtralza">
+                </div>
+                <div class="col-div-6">
+                    <p class="parag-section blue-color">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto
+                        velit,
+                        eligendi ex ullam necessitatibus, enim nobis aut unde perspiciatis nam,
+                        culpa voluptate! Cupiditate, voluptatum recusandae! Sequi distinctio officia deleniti! Deleniti.
+                    </p>
+                    <p>Learn more about how Adtralza® works and how to use it in treatment.
+                    </p>
+                </div>
+
+
+            </div>
+        </div>
+
+        <!-- End Second Section -->
+
+        <!-- Third Section -->
+
+        <div class="container-div py-3">
+            <div class="row-div">
+                <div class="col-div-4 cards-section p-4">
+                    <img src="./assets/images/icon-3.png" alt="Good safety profile">
+                    <h3 class="blue-color card-title">Long term sustained
+                        improvement</h3>
+                    <p class="card-text">9 out of 10 respondents experienced sustained disease control in clinical
+                        trials 10, providing sustained improvements in
+                        the burden of disease(1,2, 1, 8*†‡).</p>
+                    <p class="purple-color">See efficacy and trial data</p>
+
+                </div>
+                <div class="col-div-4 cards-section p-4">
+                    <img src="./assets/images/icon-2.png" alt="Good safety profile">
+                    <h3 class="blue-color card-title">Improvements in the burden of disease</h3>
+                    <p class="card-text">Patients in clinical trials saw an improvement in Quality of Life with early
+                        symptom relief and sustained improvements
+                        in burden of disease from week 16 to 32(12,13).</p>
+                    <p class="purple-color">Learn more about quality of life improvements</p>
+
+                </div>
+                <div class="col-div-4 cards-section p-4">
+                    <img src="./assets/images/icon-1.png" alt="Good safety profile">
+                    <h3 class="blue-color card-title">Good safety profile</h3>
+                    <p class="card-text">The overall frequency and severity of adverse events with Adtralza® were
+                        comparable to placebo at
+                        16 weeks* and 52
+                        weeks(19).</p>
+                    <p class="purple-color">See safety profile</p>
+
+                </div>
+
+            </div>
+
+        </div>
+        <!-- End Third Section -->
+
+
+        <!-- Forth Section -->
+        <div id="colorfull-section" class="gray-bg">
+            <div class="container-div row-div p-4">
+                <div class="col-div-4 px-3">
+                    <h2 class="blue-color colorfull-title py-2">Adtralza® neutralizes IL-13, a key driver of Atopic
+                        Dermatitis
+                        signs and
+                        symptoms.</h2>
+                    <p class="card-text">By specifically targeting the IL-13 cytokine, Adtralza® inhibits the
+                        interaction with type II receptors and prevents
+                        IL-13-induced inflammatory responses in the skin(1,2).
+                        <br>
+
+                        Adtralza® selectively modulates the dysregulated immune system by(1):
+
+                    <p>— Reducing markers of skin inflammation</p>
+                    <p>— Improving markers of skin barrier integrity</p>
+                    <p>— Reducing epidermal thickness</p>
+
+
+                    </p>
+
+                    <button class="purple-bg btn-video">Watch the video</button>
+
+                </div>
+                <div class="col-div-8 img-section">
+                    <img width="100%" src="./assets/images/image11.jpg" alt="Video">
+                </div>
+
+
+            </div>
+
+        </div>
+
+        <!-- End Forth Section -->
+
+        <!-- Blogs Section -->
+
+        <div id="blogs" class="container-div py-3">
+
+            <h2 class="blue-color px-1">Clinical tools - at a glance</h2>
+            <div class="row-div">
+                <div class="col-div-6 gray-bg">
+                    <img src="./assets/images/GettyImages-1139665867 1.png" width="100%" alt="GettyImages">
+                    <div class="p-2">
+                        <h3 class="blue-color">Dosing guide</h3>
+                        <p>Adtralza® has a straightforward dosing regimen, with 150 mg prefilled syringes(1).</p>
+                        <p class="purple-color">Learn more about application and dosing</p>
+                    </div>
+                </div>
+                <div class="col-div-6 gray-bg">
+                    <img src="./assets/images/Screenshot 2021-04-20 at 15.48.54 Copy 2.png" width="100%"
+                        alt="GettyImages">
+                    <div class="p-2">
+                        <h3 class="blue-color">Patient injection made simple</h3>
+                        <p>This step by step video guide shows the patient how to self inject using the two syringes
+                            that
+                            come in the Adtralza®
+                            carton.</p>
+                        <p class="purple-color">Watch the video</p>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+        <!-- End Blogs Section -->
+
+        <!-- Videos Section -->
+        <div id="videos" class="gray-bg">
+            <div class="container-div p-3">
+                <h2 class="blue-color">KOL Videos - get expert insights here</h2>
+                <p>See what Key opinion leaders have to say about their experiences with Adtralza®</p>
+                <div class="row-div p-3">
+                    <div class="col-div-6">
+                        <div class="row-div">
+                            <div class="col-div-6">
+                                <iframe width="100%" height="100%" src="https://www.youtube.com/embed/L0MK7qz13bU"
+                                    frameborder="0" allowfullscreen>
+                                </iframe>
+                            </div>
+                            <div class="col-div-6 ml-2">
+                                <h5 class="blue-color">Video title</h5>
+                                <p>Short description of the contents or subject of the video. You can upload a screen
+                                    from the video as thumbnail image</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-div-6">
+                        <div class="row-div">
+                            <div class="col-div-6">
+                                <iframe width="100%" height="100%" src="https://www.youtube.com/embed/L0MK7qz13bU"
+                                    frameborder="0" allowfullscreen>
+                                </iframe>
+                            </div>
+                            <div class="col-div-6 ml-2">
+                                <h5 class="blue-color">Video title</h5>
+                                <p>Short description of the contents or subject of the video. You can upload a screen
+                                    from the video as thumbnail image</p>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="row-div p-3">
+                    <div class="col-div-6">
+                        <div class="row-div">
+                            <div class="col-div-6">
+                                <iframe width="100%" height="100%" src="https://www.youtube.com/embed/L0MK7qz13bU"
+                                    frameborder="0" allowfullscreen>
+                                </iframe>
+                            </div>
+                            <div class="col-div-6 ml-2">
+                                <h5 class="blue-color">Video title</h5>
+                                <p>Short description of the contents or subject of the video. You can upload a screen
+                                    from the video as thumbnail image</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-div-6">
+                        <div class="row-div">
+                            <div class="col-div-6">
+                                <iframe width="100%" height="100%" src="https://www.youtube.com/embed/L0MK7qz13bU"
+                                    frameborder="0" allowfullscreen>
+                                </iframe>
+                            </div>
+                            <div class="col-div-6 ml-2">
+                                <h5 class="blue-color">Video title</h5>
+                                <p>Short description of the contents or subject of the video. You can upload a screen
+                                    from the video as thumbnail image</p>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <!-- Videos Section -->
+
+        <!-- references Section -->
+
+        <div class="dark-gray-bg">
+            <div class="container-div py-1 row-div">
+                <img src="assets/images/blue-icon.png" class="blue-icon-style" alt="References">
+                <h2 class="blue-color">References</h2>
+
+            </div>
+        </div>
+
+
+        <!-- End references Section -->
+
+        <!-- Footer Section -->
+
+        <div id="footer" class="blue-bg">
+            <div class="container-div p-4">
+                <div class="row-div">
+                    <div class="col-div-6">
+                        <img src="assets/images/LEO logo.png" alt="LEO logo">
+                    </div>
+                    <div class="col-div-6">
+                        <p class="footer-copy-right">
+                            © Copyright LEO Pharma 2020
+                            LEO and the LEO Lion Design
+                            are registered trademarks
+                            of LEO Pharma
+                            All rights reserved
+                        </p>
+                        <p class="footer-copy-right">LEO Pharma corporate website</p>
+                    </div>
+                </div>
+                <div class="mt-2">
+                    <ul id="footer-menu" class="row-div">
+
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <!-- End Footer Section -->
+
+
+
+
+
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="js/main.js"></script>
+</body>
+
+</html>
