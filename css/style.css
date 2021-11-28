@@ -16,6 +16,7 @@ h1, h2, h3, h4, h5, h6, p, a, li, span {
 
 .gray-bg {
   background-color: #EEEEEE;
+  color: #00609C;
 }
 
 .blue-bg {
@@ -91,7 +92,6 @@ h1, h2, h3, h4, h5, h6, p, a, li, span {
 /* Margin Sizes */
 .remove-margin {
   margin-top: -1rem;
-  margin-bottom: -1rem;
 }
 
 .m-0 {
@@ -150,23 +150,22 @@ input.search-input {
 }
 
 /*      End Search Section             */
+/* Menu Section */
 .menu-items {
   list-style: none;
-  padding-right: 1rem;
+  margin-right: 1rem;
 }
 
 .menu-items a {
   text-decoration: none;
-  -webkit-transition: 1s;
-  transition: 1s;
-}
-
-.menu-items a:hover {
-  color: #C017A2 !important;
 }
 
 #first-menu a {
   color: black;
+}
+
+#second-menu {
+  padding: 1.2rem 0rem;
 }
 
 #second-menu a {
@@ -177,11 +176,22 @@ input.search-input {
   color: white;
 }
 
+.menu-row {
+  max-height: 60px;
+  height: 60px;
+}
+
+.first-menu-height {
+  height: 25px;
+}
+
+/* End menu Section */
 /* Women Section */
 #women-section {
   background-image: url("../assets/images/Untitled-6.jpg");
   background-size: cover;
   background-repeat: no-repeat;
+  background-position: top;
 }
 
 #women-section p {
@@ -350,14 +360,8 @@ input.search-input {
   .mobile-menu-list #first-menu-mobile a, .mobile-menu-list #third-menu-mobile a {
     color: #00609C;
   }
-  .mobile-menu-list #first-menu-mobile a:hover, .mobile-menu-list #third-menu-mobile a:hover {
-    color: #C017A2 !important;
-  }
   .mobile-menu-list #second-menu-mobile a {
     color: white !important;
-  }
-  .mobile-menu-list #second-menu-mobile a:hover {
-    color: #C017A2 !important;
   }
   .mobile-menu-list a {
     line-height: 1.5;
@@ -376,9 +380,6 @@ input.search-input {
   .mobile-menu-list .col-div-4 {
     width: 33.33%;
   }
-  .mobile-menu-list #second-menu-mobile a:hover {
-    color: #C017A2;
-  }
   #menu-icon {
     cursor: pointer;
   }
@@ -391,5 +392,12 @@ input.search-input {
   #menu-div-list.slideUp {
     height: 350px;
   }
+}
+
+/* active Menu */
+.active {
+  border-bottom: 2px solid;
+  padding-bottom: 0.3rem;
+  font-weight: bold;
 }
 /*# sourceMappingURL=style.css.map */

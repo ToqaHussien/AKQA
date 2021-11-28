@@ -8,6 +8,7 @@ for (var i = 0; i < firstMenu.length; i++) {
 
     menuLinks = menuLinks + "<li class='menu-items'><a href='#'>" + firstMenu[i] + "</a></li>"
 }
+
 document.getElementById("first-menu").innerHTML = menuLinks;
 document.getElementById("first-menu-mobile").innerHTML = menuLinks;
 
@@ -47,3 +48,19 @@ document.getElementById("footer-menu").innerHTML = thirdMenuLinks;
 function toggle() {
     document.getElementById('menu-div-list').classList.toggle('slideUp')
 }
+
+/* active menu */
+
+var listItems = document.getElementById("menu");
+var links = listItems.getElementsByClassName("menu-items");
+for (var i = 0; i < links.length; i++) {
+    links[i].addEventListener("click", function () {
+        var current = document.getElementsByClassName("active");
+        if (!current.length == 0) {
+            current[0].className = current[0].className.replace(" active", "");
+        }
+        this.className += " active";
+    });
+
+}
+

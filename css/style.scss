@@ -22,6 +22,7 @@ h1 , h2 , h3 , h4 , h5 , h6 , p , a , li , span {
 }
 .gray-bg{
   background-color: $second-color-gray ;
+  color: $main-color-blue;
 }
 .blue-bg{
   background-color: $main-color-blue ;
@@ -89,7 +90,7 @@ h1 , h2 , h3 , h4 , h5 , h6 , p , a , li , span {
 
 .remove-margin{
   margin-top:-1rem;
-  margin-bottom:-1rem;
+  
 }
 
 .m-0{
@@ -143,16 +144,15 @@ input.search-input {
 }
 
 /*      End Search Section             */
+
+/* Menu Section */
 .menu-items {
     list-style: none;
-    padding-right: 1rem;
+    margin-right: 1rem;
     a{
       text-decoration: none;
-      transition: 1s;
     }
-     a:hover{
-    color: $purple !important;
-    }
+     
 }
 #first-menu{
    a{
@@ -160,6 +160,7 @@ input.search-input {
     }
 }
 #second-menu{
+      padding: 1.2rem 0rem;
   a{
         color: $main-color-blue;
     }
@@ -170,12 +171,22 @@ input.search-input {
     }
 }
 
+.menu-row{
+  max-height: 60px;
+  height: 60px;
+}
+.first-menu-height{
+  height: 25px;
+}
+/* End menu Section */
 
 /* Women Section */
 #women-section{
   background-image: url("../assets/images/Untitled-6.jpg");
   background-size: cover;
   background-repeat: no-repeat;
+  background-position: top;
+    
   p{
     font-weight: 400;
     font-size: 28px;
@@ -351,15 +362,11 @@ input.search-input {
     
     #first-menu-mobile ,#third-menu-mobile{
        a{ color:$main-color-blue;}
-       a:hover{
-      color:$purple !important;
-    }
+      
     }
     #second-menu-mobile{
       a {color:$white !important;}
-      a:hover{
-      color:$purple !important;
-    }
+    
         }
 
        
@@ -381,11 +388,7 @@ input.search-input {
     .col-div-4 {
       width : 33.33%;
     }
-    #second-menu-mobile{
-      a:hover{
-        color:$purple;
-      }
-    }
+   
   }
   #menu-icon{
     cursor: pointer;
@@ -399,5 +402,10 @@ input.search-input {
     height:350px;
 }
   }
-    
-  
+  /* active Menu */
+  .active{
+    border-bottom: 2px solid ;
+    padding-bottom: 0.3rem;
+    font-weight: bold;
+   
+  }
