@@ -1,10 +1,8 @@
-
-
-
 $main-color-blue: #00609C;
 $second-color-gray: #EEEEEE;
 $dark-gray:#E6E7E8;
 $purple: #C017A2;
+$white: white;
 $container-width: 80%;
 $main-font: 'Source Sans Pro', sans-serif;
 
@@ -27,7 +25,7 @@ h1 , h2 , h3 , h4 , h5 , h6 , p , a , li , span {
 }
 .blue-bg{
   background-color: $main-color-blue ;
-  color:white;
+  color:$white;
 }
 .purple-bg{
   background-color: $purple;
@@ -35,10 +33,11 @@ h1 , h2 , h3 , h4 , h5 , h6 , p , a , li , span {
 .dark-gray-bg{
   background-color: $dark-gray ;
 }
-/* Padding Sizes */
-.p-0{
-  padding:0px;
+.white-bg{
+  background-color: $white ;
 }
+/* Padding Sizes */
+
 .p-1{
   padding: 1rem ;
 }
@@ -51,9 +50,7 @@ h1 , h2 , h3 , h4 , h5 , h6 , p , a , li , span {
 .p-4{
   padding: 4rem ;
 }
-.p-5{
-  padding: 5rem ;
-}
+
 .px-0 {
   padding-right: 0px;
   padding-left:0px ;
@@ -80,10 +77,7 @@ h1 , h2 , h3 , h4 , h5 , h6 , p , a , li , span {
   padding-right: 2rem;
   padding-left:2rem ;
 }
-.px-2{
-  padding-right: 1.5rem;
-  padding-left:1.5rem ;
-}
+
 .px-1{
   padding-right: 1rem;
   padding-left:1rem ;
@@ -101,19 +95,7 @@ h1 , h2 , h3 , h4 , h5 , h6 , p , a , li , span {
 .m-0{
   margin: 0px;
 }
-.m-1{
-  margin: 1rem;
-}
-.m-2{
-  margin: 2rem;
-}
-.m-3{
-  margin: 3rem;
-}
 
-.ml-1{
-  margin-left: 1rem ;
-}
 .ml-2{
   margin-left: 2rem ;
 }
@@ -184,7 +166,7 @@ input.search-input {
 }
 #third-menu{
   a{
-        color: white;
+        color: $white;
     }
 }
 
@@ -198,7 +180,7 @@ input.search-input {
     font-weight: 400;
     font-size: 28px;
     line-height:36.4px;
-    color: white;
+    color: $white;
     width: 50%;
   }
 }
@@ -233,6 +215,15 @@ input.search-input {
 }
 /* End Card Section  */
 
+/* Video Section */
+
+.video-box {
+    height: 150px;
+    background: $white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 /* colorfull-section */
 
 #colorfull-section{
@@ -356,7 +347,7 @@ input.search-input {
   }
 
   .mobile-menu-list{
-    background-color: white;
+    background-color: $white;
     
     #first-menu-mobile ,#third-menu-mobile{
        a{ color:$main-color-blue;}
@@ -365,7 +356,7 @@ input.search-input {
     }
     }
     #second-menu-mobile{
-      a {color:white !important;}
+      a {color:$white !important;}
       a:hover{
       color:$purple !important;
     }

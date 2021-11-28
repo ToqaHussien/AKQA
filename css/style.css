@@ -31,11 +31,11 @@ h1, h2, h3, h4, h5, h6, p, a, li, span {
   background-color: #E6E7E8;
 }
 
-/* Padding Sizes */
-.p-0 {
-  padding: 0px;
+.white-bg {
+  background-color: white;
 }
 
+/* Padding Sizes */
 .p-1 {
   padding: 1rem;
 }
@@ -50,10 +50,6 @@ h1, h2, h3, h4, h5, h6, p, a, li, span {
 
 .p-4 {
   padding: 4rem;
-}
-
-.p-5 {
-  padding: 5rem;
 }
 
 .px-0 {
@@ -86,11 +82,6 @@ h1, h2, h3, h4, h5, h6, p, a, li, span {
   padding-left: 2rem;
 }
 
-.px-2 {
-  padding-right: 1.5rem;
-  padding-left: 1.5rem;
-}
-
 .px-1 {
   padding-right: 1rem;
   padding-left: 1rem;
@@ -105,22 +96,6 @@ h1, h2, h3, h4, h5, h6, p, a, li, span {
 
 .m-0 {
   margin: 0px;
-}
-
-.m-1 {
-  margin: 1rem;
-}
-
-.m-2 {
-  margin: 2rem;
-}
-
-.m-3 {
-  margin: 3rem;
-}
-
-.ml-1 {
-  margin-left: 1rem;
 }
 
 .ml-2 {
@@ -246,6 +221,21 @@ input.search-input {
 }
 
 /* End Card Section  */
+/* Video Section */
+.video-box {
+  height: 150px;
+  background: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
 /* colorfull-section */
 #colorfull-section .row-div {
   -webkit-box-pack: center;
