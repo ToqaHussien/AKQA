@@ -33,6 +33,7 @@ h1 , h2 , h3 , h4 , h5 , h6 , p , a , li , span {
 }
 .dark-gray-bg{
   background-color: $dark-gray ;
+  color: $main-color-blue;
 }
 .white-bg{
   background-color: $white ;
@@ -91,10 +92,6 @@ h1 , h2 , h3 , h4 , h5 , h6 , p , a , li , span {
 .remove-margin{
   margin-top:-1rem;
   
-}
-
-.m-0{
-  margin: 0px;
 }
 
 .ml-2{
@@ -297,6 +294,17 @@ input.search-input {
   /* End Footer */
 
 
+
+  /* active Menu */
+  .active{
+    border-bottom: 2px solid ;
+    padding-bottom: 0.3rem;
+    font-weight: bold;
+   
+  }
+
+  /* End Active Menu */
+
   /* Responsive */
   @media only screen and (min-width: 769px) {
 
@@ -401,11 +409,4 @@ input.search-input {
   #menu-div-list.slideUp {
     height:350px;
 }
-  }
-  /* active Menu */
-  .active{
-    border-bottom: 2px solid ;
-    padding-bottom: 0.3rem;
-    font-weight: bold;
-   
   }
